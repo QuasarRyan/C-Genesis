@@ -8,8 +8,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     // insert code here...
     printf("Hello, World!\n");
+    printf("EXIT_SUCCESS = %d\n",EXIT_SUCCESS);
     return EXIT_SUCCESS;
 }
