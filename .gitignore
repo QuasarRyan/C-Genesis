@@ -1,6 +1,7 @@
 **\.exec
 **\.swp
-**test*\.c
+**/test.c
+**/test.h
 **/*~
 **/xcuserdata
 !***\.c
