@@ -1,5 +1,10 @@
-**\.exec
-**\.swp
-**/xcuserdata
-!**\.c
-!**\.h
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.exec
+*.swp
+xcuserdata
+*.o
+test*.c
