@@ -6,7 +6,7 @@ int main (void)
   int index=0;
   char str[256];
   printf("Type in some alphabets: ");
-  scanf("%s",str);
+  scanf("%255[^\n]",str);
   for (index=0;
        index<strlen(str);
        index++)
