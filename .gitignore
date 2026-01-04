@@ -1,12 +1,68 @@
 .DS_Store
-#*#
+._*
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+
 *.xcodeproj/
 *.exec
-*.swp
-xcuserdata
-*.o
 test*.c
+
+# =============== C Project Build Artifacts ===============
+# --- Compiler outputs ---
+*.o
+*.obj
+*.lo
+*.la
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+*.hex
+*.bin
+*.ihex
+
+# --- IDE & Tool-specific (non-editor) ---
+# VS Code
+.vscode/
+!.vscode/settings.json   # ← 允许提交团队统一的 settings（如 C/C++ config）
+!.vscode/c_cpp_properties.json
+
+# CLion / JetBrains
+.idea/
+!.idea/runConfigurations/  # ← 若需共享运行配置（谨慎评估）
+
+# Eclipse CDT
+.project
+.cproject
+.settings/
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Emacs
+# Auto-save files (e.g., #file.txt#)
+*#
+.#*
+# Backup files (e.g., file.txt~ or file.txt.~1~)
+*~
+
+# Vim / Neovim
+# Swap files (.swp, .swo, .swn, etc.)
+*.swp
+*.swo
+*.swn
+*.un~
